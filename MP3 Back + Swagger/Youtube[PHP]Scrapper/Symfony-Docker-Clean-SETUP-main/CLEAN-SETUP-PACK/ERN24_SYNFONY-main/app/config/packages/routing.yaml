@@ -1,0 +1,17 @@
+framework:
+    router:
+        # Configure how to generate URLs in non-HTTP contexts, such as CLI commands.
+        # See https://symfony.com/doc/current/routing.html#generating-urls-in-commands
+        #default_uri: http://localhost
+
+when@prod:
+    framework:
+        router:
+            strict_requirements: null
+
+nelmio_api_doc:
+    documentation:
+        info:
+            title: 'API Documentation'
+            description: 'API documentation for the HomeController'
+            version: '1.0.0'

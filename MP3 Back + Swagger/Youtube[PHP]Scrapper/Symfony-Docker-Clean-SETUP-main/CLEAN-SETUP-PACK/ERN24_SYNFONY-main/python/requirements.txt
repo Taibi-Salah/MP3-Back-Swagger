@@ -1,0 +1,7 @@
+Flask
+ytmusicapi
+requests
+mysql-connector-python
+mutagen
+flask-swagger-ui
+PyYAML

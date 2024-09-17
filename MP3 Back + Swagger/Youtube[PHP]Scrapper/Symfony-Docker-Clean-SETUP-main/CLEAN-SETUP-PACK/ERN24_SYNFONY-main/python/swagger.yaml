@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: YoutubeMusic Data API
+  version: 1.0.0
+  description: Music Data API
+paths:
+  /api/latest_mp3:
+    get:
+      summary: Get the latest MP3 file
+      responses:
+        '200':
+          description: Successful response
+  /api/create_artist:
+    post:
+      summary: Create a new artist
+      responses:
+        '201':
+          description: Artist created successfully
+  /api/debug_fs:
+    get:
+      summary: Debug filesystem
+      responses:
+        '200':
+          description: Successful response
+  /api/check_files:
+    get:
+      summary: Check files in the shared directory
+      responses:
+        '200':
+          description: Successful response
